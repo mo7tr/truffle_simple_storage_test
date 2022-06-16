@@ -1,0 +1,26 @@
+{
+  "name": "simple_storage_truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mo7tr/truffle_simple_storage_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mo7tr/truffle_simple_storage_test/issues"
+  },
+  "homepage": "https://github.com/mo7tr/truffle_simple_storage_test#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.9",
+    "dotenv": "^16.0.1"
+  }
+}
