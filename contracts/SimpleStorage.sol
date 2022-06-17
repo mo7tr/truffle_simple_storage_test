@@ -3,6 +3,10 @@ pragma solidity 0.8.14;
  
 contract SimpleStorage {
    uint data;
+
+   constructor(uint x) payable{
+       set(x);
+   }
  
    function set(uint x) public {
        data = x;
