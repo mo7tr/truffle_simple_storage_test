@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mo7tr/truffle_simple_storage_test#readme",
   "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
     "@truffle/hdwallet-provider": "^2.0.9",
     "dotenv": "^16.0.1"
   }

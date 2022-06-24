@@ -4,12 +4,16 @@ pragma solidity 0.8.14;
 contract SimpleStorage {
    uint data;
 
+   event dataStored(uint _data, address _addr);
+
    constructor(uint x) payable{
-       set(x);
+       data = x;
    }
  
    function set(uint x) public {
-       data = x;
+       require(x > 0, "you can't store the 0 value");
+        data = x;
+        emit dataStored(x, msg.sender);  
    }
  
    function get() public view returns (uint) {
